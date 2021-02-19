@@ -2,7 +2,7 @@
 	"name": "power-asm",
 	"displayName": "Power assembly",
 	"description": "Power/powerpc assembly support for VSCode compatible editors",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "ruscur",
 	"icon": "images/logo.jpg",
 	"author": {
