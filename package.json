@@ -4,7 +4,7 @@
 	"description": "Power/powerpc assembly support for VSCode compatible editors",
 	"version": "0.0.1",
 	"publisher": "ruscur",
-	"icon": "images/icon.png",
+	"icon": "images/logo.jpg",
 	"author": {
 		"name": "Russell Currey"
 	},
