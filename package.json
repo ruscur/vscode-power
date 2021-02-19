@@ -1,0 +1,57 @@
+{
+	"name": "power-asm",
+	"displayName": "Power assembly",
+	"description": "Power/powerpc assembly support for VSCode compatible editors",
+	"version": "0.0.1",
+	"publisher": "ruscur",
+	"icon": "images/icon.png",
+	"author": {
+		"name": "Russell Currey"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"galleryBanner": {
+		"color": "#0084A9",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ruscur/vscode-power.git"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "power",
+				"aliases": [
+					"POWER",
+					"Power",
+					"power",
+					"ppc",
+					"powerpc",
+					"ppc64",
+					"ppc64el",
+					"ppc64le",
+					"ppc32"
+				],
+				"extensions": [
+					".s",
+					".S",
+					".asm",
+					".sx"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "power",
+				"scopeName": "source.power",
+				"path": "./syntaxes/power.tmlanguage.json"
+			}
+		]
+	}
+}
