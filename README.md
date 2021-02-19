@@ -12,4 +12,4 @@ Updates are needed for the latest public ISA.
 
 Here's an example of what it looks like with the Nord theme:
 
-![from skiboot/asm/head.S](images/preview.png)
+![from skiboot/asm/head.S](https://raw.githubusercontent.com/ruscur/vscode-power/main/images/preview.png)
